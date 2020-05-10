@@ -1,8 +1,8 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://example.com/"
-title = "Hugo Theme MemE"
+baseURL = "https://michellejanosi.com/"
+title = "Michelle Janosi"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -94,17 +94,17 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "reuixiy"
+    name = "Michelle Janosi"
     # Email
-    email = "reuixiy@gmail.com"
+    email = "michelle.janosi@gmail.com"
     # Motto or introduction
     motto = "Viva La Vida"
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
-    website = "https://io-oi.me/"
+    website = "https://michellejanosi.com/"
     # Twitter
-    twitter = "reuixiy"
+    twitter = "_mjelle"
 
 # Related content
 [related]
@@ -341,7 +341,7 @@ uglyURLs = false
     siteLogo = "/icons/apple-touch-icon.png"
     # Note: used for JSON-LD, Open Graph
 
-    siteDescription = "MemE is a powerful and highly customizable GoHugo theme for personal blogs."
+    siteDescription = "A blog about developer stuff."
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 
@@ -349,7 +349,7 @@ uglyURLs = false
     # ATTENTION: keep this format, change
     #            the number
 
-    siteTwitter = "reuixiy"
+    siteTwitter = "_mjelle"
     # Note: used for Twitter Cards
 
 
@@ -440,7 +440,7 @@ uglyURLs = false
     groupByMonth = true
 
     # Enable Chinese zodiac?
-    chineseZodiac = true
+    chineseZodiac = false
 
     # Translate the year? (valid for title)
     i18nYear = false
@@ -702,7 +702,7 @@ uglyURLs = false
     duration = 0.5
 
     # Primary color of light mode
-    primaryColorLight = "220, 90%, 56%"
+    primaryColorLight = "201, 65%, 62%"
     # Primary color of dark mode
     primaryColorDark = "201, 65%, 62%"
     # ATTENTION: only HSL color values ​​are
@@ -733,7 +733,7 @@ uglyURLs = false
     ######################################
     # Post Meta Info
 
-    enablePostMeta = true
+    enablePostMeta = false
     # Note: *global settings*
     #       `meta` in post’s Front Matter
     #       has a higher priority than here
@@ -914,9 +914,9 @@ uglyURLs = false
     #       brand.
 
     # Site brand
-    fontFamilySiteBrand = ""
+    fontFamilySiteBrand = "'Comfortaa', sans-serif"
     # Menu bar
-    fontFamilyMenu = ""
+    fontFamilyMenu = "'Comfortaa', sans-serif"
     # Post title, post subtitle, list title, year and month title of the list, related posts title, previous/next post title, header of table, term/name in a definition list
     fontFamilyTitle = "'Comfortaa', sans-serif"
     # Headings, toc title
@@ -924,18 +924,18 @@ uglyURLs = false
     # Code, superscript, post meta info, post updated badge, post gitinfo, minimal footer, busuanzi site view counter
     fontFamilyCode = "'Source Code Pro', monospace"
     # Blockquotes
-    fontFamilyQuote = ""
+    fontFamilyQuote = "'Comfortaa', sans-serif"
     # Table of contents
-    fontFamilyTOC = ""
+    fontFamilyTOC = "'Comfortaa', sans-serif"
     # Caption
-    fontFamilyCaption = ""
+    fontFamilyCaption = "'Comfortaa', sans-serif"
     # Footer
-    fontFamilyFooter = ""
+    fontFamilyFooter = "'Comfortaa', sans-serif"
     # Body
-    fontFamilyBody = "'IBM Plex Serif', serif"
+    fontFamilyBody = "'Comfortaa', sans-serif"
 
     # Embed fonts link
-    fontsLink = "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@700&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300&display=swap"
     # Note: In order for the reader to
     #       experience the fonts you set,
     #       it is best to use web fonts.
@@ -990,7 +990,7 @@ uglyURLs = false
     ######################################
     ## Drop Cap
 
-    enableDropCap = true
+    enableDropCap = false
     # Note: *global settings*
     #       `dropCap` in post’s Front Matter
     #       has a higher priority than here
@@ -1036,7 +1036,7 @@ uglyURLs = false
     ######################################
     # Post Copyright
 
-    enablePostCopyright = true
+    enablePostCopyright = false
 
     displayPostCopyright = true
     # Note: *global settings*
@@ -1047,9 +1047,9 @@ uglyURLs = false
     ######################################
     # Post Updated Badge
 
-    enablePostUpdatedBadge = true
+    enablePostUpdatedBadge = false
 
-    displayUpdatedBadge = true
+    displayUpdatedBadge = false
     # Note: *global settings*
     #       `badge` in post’s Front Matter
     #       has a higher priority than here
@@ -1102,13 +1102,13 @@ uglyURLs = false
     shareOnTwitter = true
     shareOnFacebook = true
     shareOnLinkedIn = true
-    shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
-    shareOnQzone = true
+    shareOnTelegram = false
+    shareOnWeibo = false
+    shareOnDouban = false
+    shareOnQQ = false
+    shareOnQzone = false
 
-    shareViaQRCode = true
+    shareViaQRCode = false
 
 
     ######################################
@@ -1157,7 +1157,7 @@ uglyURLs = false
     ######################################
     # Minimal Footer
 
-    enableMinimalFooter = false
+    enableMinimalFooter = true
     enableVerticalBarStructure = false
     # Note: If you enable this, the
     #       categories or sections that
@@ -1166,7 +1166,7 @@ uglyURLs = false
     #       categories or sections and are
     #       separated by vertical bar(|).
 
-    enableAboutPageMinimalFooter = false
+    enableAboutPageMinimalFooter = true
 
 
     ######################################
@@ -1190,7 +1190,7 @@ uglyURLs = false
 
     displayCopyrightSymbol = true
 
-    displaySiteCreatedYear = true
+    displaySiteCreatedYear = false
 
     # Leave it empty("") if you don’t want
     # the icon
@@ -1200,12 +1200,12 @@ uglyURLs = false
     iconAnimation = true
 
     # Display links to Hugo and MemE?
-    displayPoweredBy = true
+    displayPoweredBy = false
 
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # Custom Footer (Markdown supported)
-    customFooter = ""
+    customFooter = "Powered by [Hugo](https://gohugo.io)"
 
     displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "Site UV"
@@ -1219,7 +1219,7 @@ uglyURLs = false
     #       https://busuanzi.ibruce.info/
 
     # Socials
-    enableSocials = true
+    enableSocials = false
     # Note: see data/Socials.toml
 
 
